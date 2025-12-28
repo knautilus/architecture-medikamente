@@ -1,0 +1,54 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.3">
+  <diagram name="Page-1" id="_HT7Lmef5sRvCSQfpaj9">
+    <mxGraphModel dx="1363" dy="766" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;" value="Файловое хранилище" vertex="1">
+          <mxGeometry height="340" width="170" x="680" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-12" parent="1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Общий список&lt;br&gt;пациентов&lt;br&gt;Excel" vertex="1">
+          <mxGeometry height="80" width="150" x="690" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-6" edge="1" parent="1" source="5eZ35qc-JA7XxV-pDvse-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="5eZ35qc-JA7XxV-pDvse-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Пациент" vertex="1">
+          <mxGeometry height="60" width="120" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-7" edge="1" parent="1" source="5eZ35qc-JA7XxV-pDvse-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5eZ35qc-JA7XxV-pDvse-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Передача персональных данных" vertex="1">
+          <mxGeometry height="80" width="120" x="200" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-8" edge="1" parent="1" source="5eZ35qc-JA7XxV-pDvse-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="5eZ35qc-JA7XxV-pDvse-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Администратор" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-9" edge="1" parent="1" source="5eZ35qc-JA7XxV-pDvse-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="5eZ35qc-JA7XxV-pDvse-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Внесение данных" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-11" parent="1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Журнал врача&lt;br&gt;Excel" vertex="1">
+          <mxGeometry height="80" width="150" x="690" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5eZ35qc-JA7XxV-pDvse-13" parent="1" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" value="Файлы пациента&lt;br&gt;Pdf, сканы" vertex="1">
+          <mxGeometry height="80" width="150" x="690" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="eRbQdSpgE2aCz-R2L_0B-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;align=left;fillColor=#d5e8d4;strokeColor=#82b366;" value="1. Переход от хранения данных в файлах к БД&lt;br&gt;&lt;br&gt;2. Шифрование данных&lt;br&gt;&lt;br&gt;3. Доступ по ABAC/RBAC&lt;br&gt;&lt;br&gt;4. Аудит действий" vertex="1">
+          <mxGeometry height="130" width="180" x="850" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="eRbQdSpgE2aCz-R2L_0B-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Шифрование трафика,&lt;br&gt;Авторизованный пользователь" vertex="1">
+          <mxGeometry height="70" width="120" x="520" y="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
